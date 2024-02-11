@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    display: flex;
+    height:120px;
+    width:100%;
+    background-image: url("../imgs/sky1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    main{
+        display: flex;
+        width:100%;
+        height:300px;
+        justify-content: center;
+        padding-top: 2%;
+        .maindiv{
+            width:70%;
+            height:20%;
+            background-color: rgb(153, 248, 0);
+            display: flex;
+            border-radius: 50px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            
+            .ca{
+                color:rgb(0, 0, 0);
+                font-size: 40px;
+                font-family: 'BPG Square', sans-serif;
+                @media (max-width:600px){
+                    font-size: 20px;;
+                }
+                @media (max-width:300px){
+                    font-size: 15px;;
+                }
+
+            }
+
+        }
+    }
+}
+
+html{
+    background-color: black;
+}
+
+.s1{
+    .s1d1{
+        background-image: url("../imgs/sky2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height:500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        @media (max-width:525px){
+            flex-wrap: wrap;
+        }
+        .cards{
+            height:320px;
+            width:250px;
+            min-width: 100px;
+           
+            margin-left: 10px;
+            margin-right: 10px;
+            
+            @media (max-width:525px){
+                height:140px;
+                width:70px;
+        
+            }
+
+        }
+        .card1{
+            cursor: pointer;
+            box-shadow: rgba(255, 255, 255, 0.37) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+            .erti{
+                width:100%;
+                height: 100%;
+                transition: 0.177s;
+                &:hover{
+                    width:103%;
+                    
+                }
+                
+            }
+
+        }
+        .card2{
+            cursor: pointer;
+
+            box-shadow: rgba(255, 255, 255, 0.37) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            .ori{
+                width:100%;
+                height: 100%; 
+                transition: 0.177s;
+                &:hover{
+                    width:103%;
+                    
+                }
+            }
+
+        }
+        .card3{
+            cursor: pointer;
+
+
+            box-shadow: rgba(255, 255, 255, 0.37) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+            .sami{
+                width:100%;
+                height: 100%; 
+                transition: 0.177s;
+                &:hover{
+                    width:103%;
+                    
+                }
+            }
+
+        }
+        .card4{
+            cursor: pointer;
+
+            box-shadow: rgba(255, 255, 255, 0.37) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            .otxi{
+                width:100%;
+                height: 100%;
+                transition: 0.177s;
+                &:hover{
+                    width:103%;
+                    
+                }
+            }
+
+        }
+    }
+}
+
+.section2{
+    height:500px;
+    background-image: url("../imgs/oto.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+    }
+    .ahadadsrulan{
+        margin-top:30px;
+        color: rgb(117, 53, 0);
+        font-size: 40px;
+
+        @media (max-width:600px){
+            font-size: 30px;
+        }
+        @media (max-width:466px){
+            font-size: 20px;
+        }
+        @media (max-width:315px){
+            font-size: 16px;
+        }
+
+    }
+
+    .video{
+        @media (max-width:600px){
+            width: 400px;
+        }
+        @media (max-width:447px){
+            width: 350px;
+        }
+        @media (max-width:365px){
+            width: 300px;
+        }
+        @media (max-width:313px){
+            width: 250px;
+        }
+
+
+    }
