@@ -171,7 +171,7 @@ html {
 }
 
 .section2 {
-  height: 500px;
+  height: 800px;
   background-image: url("../imgs/oto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,45 +181,78 @@ html {
   justify-content: space-around;
   flex-direction: column;
 }
-
-.ahadadsrulan {
+@media (max-width: 418px) {
+  .section2 {
+    height: 700px;
+  }
+}
+@media (max-width: 365px) {
+  .section2 {
+    height: 640px;
+  }
+}
+.section2 .ahadadsrulan {
   margin-top: 30px;
   color: rgb(117, 53, 0);
   font-size: 40px;
 }
 @media (max-width: 600px) {
-  .ahadadsrulan {
+  .section2 .ahadadsrulan {
     font-size: 30px;
   }
 }
 @media (max-width: 466px) {
-  .ahadadsrulan {
+  .section2 .ahadadsrulan {
     font-size: 20px;
   }
 }
 @media (max-width: 315px) {
-  .ahadadsrulan {
+  .section2 .ahadadsrulan {
     font-size: 16px;
   }
 }
-
 @media (max-width: 600px) {
-  .video {
+  .section2 .video {
     width: 400px;
   }
 }
 @media (max-width: 447px) {
-  .video {
+  .section2 .video {
     width: 350px;
   }
 }
 @media (max-width: 365px) {
-  .video {
+  .section2 .video {
     width: 300px;
   }
 }
 @media (max-width: 313px) {
-  .video {
+  .section2 .video {
+    width: 250px;
+  }
+}
+@media (max-width: 670px) {
+  .section2 .video2 {
+    width: 500px;
+  }
+}
+@media (max-width: 510px) {
+  .section2 .video2 {
+    width: 400px;
+  }
+}
+@media (max-width: 405px) {
+  .section2 .video2 {
+    width: 350px;
+  }
+}
+@media (max-width: 360px) {
+  .section2 .video2 {
+    width: 300px;
+  }
+}
+@media (max-width: 310px) {
+  .section2 .video2 {
     width: 250px;
   }
 }/*# sourceMappingURL=Global.css.map */

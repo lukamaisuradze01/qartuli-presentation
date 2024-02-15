@@ -181,7 +181,7 @@ html{
 }
 
 .section2{
-    height:500px;
+    height:800px;
     background-image: url("../imgs/oto.jpg");
     background-repeat: no-repeat;
         background-size: cover;
@@ -190,9 +190,13 @@ html{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-
-
+    @media (max-width:418px){
+        height:700px;
     }
+    @media (max-width:365px){
+        height:640px;
+    }
+    
     .ahadadsrulan{
         margin-top:30px;
         color: rgb(117, 53, 0);
@@ -226,3 +230,25 @@ html{
 
 
     }
+
+    .video2{
+        @media (max-width:670px){
+            width:500px;
+        }
+        @media (max-width:510px){
+            width:400px;
+        }
+        @media (max-width:405px){
+            width:350px;
+        }
+        @media (max-width:360px){
+            width:300px;
+        }
+        @media (max-width:310px){
+            width:250px;
+        }
+    }
+
+
+    }
+    
